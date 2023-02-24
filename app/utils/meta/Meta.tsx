@@ -34,8 +34,8 @@ export const Meta: FC<ISeo> = ({ title, description, image, children }) => {
 				) : (
 					<meta name="robots" content="noindex, nofollow" />
 				)}
-				{children}
 			</Head>
+			{children}
 		</>
 	)
 }

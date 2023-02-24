@@ -11,7 +11,10 @@ export const Home: FC = () => {
 			title="Watch movies online"
 			description="Watch MovieApp movies and TV online"
 		>
-			<Heading title="Title" />
+			<Heading
+				title="Watch movies online"
+				className="text-gray-300 mb-8 text-xl"
+			/>
 		</Meta>
 	)
 }
