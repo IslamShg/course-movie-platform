@@ -15,7 +15,7 @@ export const MenuItem: FC<{ item: IMenuItem }> = ({ item }) => {
 		<li className={classNames({ [styles.active]: asPath === item.link })}>
 			<Link href={item.link}>
 				<MaterialIcon name={item.icon} />
-				<span>{item.title}</span>
+				<span >{item.title}</span>
 			</Link>
 		</li>
 	)
